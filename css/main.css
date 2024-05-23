@@ -1,0 +1,26 @@
+:root{
+    --point-500:#3075F4;
+    --point-300:#ABC8FD;
+
+    --light-500:#ffffff;
+
+    --neutral-500:#000000;
+    --neutral-300:#b1b1b1;
+
+    --size-52:52px;
+    --size-35:35px;
+    --size-28:28px;
+    --size-22:22px;
+    --size-18:18px;
+
+}
+
+
+/* *{
+    outline: 1px solid red;
+} */
+
+@font-face {
+    font-family: OpenSans;
+    src: url("/assets/fonts/OpenSans-VariableFont_wdth,wght.ttf");
+}

@@ -1,0 +1,91 @@
+@import "main.css";
+
+body{
+    font-family: OpenSans;
+    padding: 10px;
+}
+
+a:hover{
+    font-weight: 500;
+}
+
+.chapter{
+    margin-top: 105px;
+    width: 100%
+}
+
+.chapter-head{
+    font-weight: 800;
+}
+
+/* SHEDULE */
+
+.shedule{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.shedule-container{
+    width: 90%;
+}
+
+.radio-shedule{
+    width: 100%;
+    display: flex;
+}
+
+/* SHEDULE --> groups */
+
+.radio-container{
+    width: 10%;
+    height: 623px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.radio-container input{
+    display: none;
+}
+.radio-container label{
+    width: 100%;
+    height: 60px;
+    background-color: var(--point-300);
+    border-radius: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.radio-container input[type="radio"]:checked + label{
+    background-color: var(--point-500);
+    transition: 0.5s;
+    color: white;
+    font-weight: 600;
+}
+
+/* SHEDULE --> table */
+.show{
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.show table{
+    display: none;
+    width: 100%;
+    height: 90%;
+}
+table td{
+    text-align: center;
+
+}
+table #table-header td{
+    font-weight: 600;
+}
+table{
+    border: 1px solid black;
+}
+table td{
+    border: 1px solid black;
+}

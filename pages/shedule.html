@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+    <link rel="stylesheet" href="/css/shedule.css">
+    <title>BSPU Portal</title>
+</head>
+<body>
+    <!-- HEADER -->
+
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="/assets/images//logo/BSPULogo.svg" alt="Logo" onclick="GoToHome()">
+            </div>
+            <div class="navigation panel">
+                <ul class="nav pages">
+                    <li><a href="#news">Новости</a></li>
+                    <li><a href="#teachers">Преподаватели</a></li>
+                    <li><a href="#applicants">Абитуриентам</a></li>
+                    <li><a href="shedule.html">Расписание</a></li>
+                </ul>
+            </div>
+            <div class="autorization panel">
+                <ul class="nav log">
+                    <li><a href="login.html">Войти</a></li>
+                    <li>/</li>
+                    <li><a href="signup.html">Зарегестрироваться</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- SHEDULE -->
+
+    <section class="shedule chapter">
+        <div class="shedule-container">
+            <h1 class="chapter-head">РАСПИСАНИЕ</h1>
+            <div class="radio-shedule">
+                <div class="radio-container">
+                    <input type="radio" name="shedule" id="i11">
+                    <label for="i11">9ИСИП-11-23(27)</label>
+                    <input type="radio" name="shedule" id="i12">
+                    <label for="i12">9ИСИП-12-23(27)</label>
+                    <input type="radio" name="shedule" id="i21">
+                    <label for="i21">9ИСИП-21-22(26)</label>
+                    <input type="radio" name="shedule" id="i22">
+                    <label for="i22">9ИСИП-22-22(26)</label>
+                    <input type="radio" name="shedule" id="i31">
+                    <label for="i31">9ИСИП-31-21(25)</label>
+                    <input type="radio" name="shedule" id="i32">
+                    <label for="i32">9ИСИП-32-21(25)</label>
+                    <input type="radio" name="shedule" id="i41">
+                    <label for="i41">9ИСИП-41-20(24)</label>
+                    <input type="radio" name="shedule" id="i42">
+                    <label for="i42">9ИСИП-42-20(24)</label>
+                </div>
+                <div class="show">
+                    <table id="t11">
+                        <tr id="table-header">
+                            <td style="width: 5%;">№ пары</td>
+                            <td style="width: 5%;">Время</td>
+                            <td style="width: 15%;">Понедельник</td>
+                            <td style="width: 15%;">Вторник</td>
+                            <td style="width: 15%;">Среда</td>
+                            <td style="width: 15%;">Mas</td>
+                            <td style="width: 15%;">Пятница</td>
+                            <td style="width: 15%;">Суббота</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">1</td>
+                            <td style="width: 5%;">8:00-9:30</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 03.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">2</td>
+                            <td style="width: 5%;">9:50-11:20</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 03.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">3</td>
+                            <td style="width: 5%;">12:20-13:50</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">4</td>
+                            <td style="width: 5%;">14:10-15:40</td>
+                            <td style="width: 15%;">Физ-ра</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">5</td>
+                            <td style="width: 5%;">16:00-17:30</td>
+                            <td style="width: 15%;">Менеджмент в ПД</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">6</td>
+                            <td style="width: 5%;">17:50-19:20</td>
+                            <td style="width: 15%;">Менеджмент в ПД <b>/</b></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                        </tr>
+                    </table>
+                    <table id="t12">
+                        <tr id="table-header">
+                            <td style="width: 5%;">№ пары</td>
+                            <td style="width: 5%;">Время</td>
+                            <td style="width: 15%;">Понедельник</td>
+                            <td style="width: 15%;">Вторник</td>
+                            <td style="width: 15%;">Среда</td>
+                            <td style="width: 15%;">Четверг</td>
+                            <td style="width: 15%;">Пятница</td>
+                            <td style="width: 15%;">mas</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">1</td>
+                            <td style="width: 5%;">8:00-9:30</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 03.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">2</td>
+                            <td style="width: 5%;">9:50-11:20</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 03.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">3</td>
+                            <td style="width: 5%;">12:20-13:50</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">4</td>
+                            <td style="width: 5%;">14:10-15:40</td>
+                            <td style="width: 15%;">Физ-ра</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">5</td>
+                            <td style="width: 5%;">16:00-17:30</td>
+                            <td style="width: 15%;">Менеджмент в ПД</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">6</td>
+                            <td style="width: 5%;">17:50-19:20</td>
+                            <td style="width: 15%;">Менеджмент в ПД <b>/</b></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                        </tr>
+                    </table>
+                    <table id="t21">
+                        <tr id="table-header">
+                            <td style="width: 5%;">№ пары</td>
+                            <td style="width: 5%;">erer</td>
+                            <td style="width: 15%;">Понедельник</td>
+                            <td style="width: 15%;">Вторник</td>
+                            <td style="width: 15%;">Среда</td>
+                            <td style="width: 15%;">Четверг</td>
+                            <td style="width: 15%;">Пятница</td>
+                            <td style="width: 15%;">Суббота</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">1</td>
+                            <td style="width: 5%;">8:00-9:30</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 03.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">2</td>
+                            <td style="width: 5%;">9:50-11:20</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 03.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">3</td>
+                            <td style="width: 5%;">12:20-13:50</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">4</td>
+                            <td style="width: 5%;">14:10-15:40</td>
+                            <td style="width: 15%;">Физ-ра</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">5</td>
+                            <td style="width: 5%;">16:00-17:30</td>
+                            <td style="width: 15%;">Менеджмент в ПД</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">6</td>
+                            <td style="width: 5%;">17:50-19:20</td>
+                            <td style="width: 15%;">Менеджмент в ПД <b>/</b></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                        </tr>
+                    </table>
+                    <table id="t22">
+                        <tr id="table-header">
+                            <td style="width: 5%;">№ парerer</td>
+                            <td style="width: 5%;">Время</td>
+                            <td style="width: 15%;">Понедельник</td>
+                            <td style="width: 15%;">Вторник</td>
+                            <td style="width: 15%;">Среда</td>
+                            <td style="width: 15%;">Четверг</td>
+                            <td style="width: 15%;">Пятница</td>
+                            <td style="width: 15%;">Суббота</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">1</td>
+                            <td style="width: 5%;">8:00-9:30</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 03.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">2</td>
+                            <td style="width: 5%;">9:50-11:20</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 03.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">3</td>
+                            <td style="width: 5%;">12:20-13:50</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">4</td>
+                            <td style="width: 5%;">14:10-15:40</td>
+                            <td style="width: 15%;">Физ-ра</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">5</td>
+                            <td style="width: 5%;">16:00-17:30</td>
+                            <td style="width: 15%;">Менеджмент в ПД</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">6</td>
+                            <td style="width: 5%;">17:50-19:20</td>
+                            <td style="width: 15%;">Менеджмент в ПД <b>/</b></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                        </tr>
+                    </table>
+                    <table id="t31">
+                        <tr id="table-header">
+                            <td style="width: 5%;">№ пары</td>
+                            <td style="width: 5%;">Время</td>
+                            <td style="width: 15%;">Понедельник</td>
+                            <td style="width: 15%;">Вторник</td>
+                            <td style="width: 15%;">Среда</td>
+                            <td style="width: 15%;">Четверг</td>
+                            <td style="width: 15%;">Пятница</td>
+                            <td style="width: 15%;">Суббота</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">1</td>
+                            <td style="width: 5%;">8:00-9:30</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 03.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">2</td>
+                            <td style="width: 5%;">9:50-11:20</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 03.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">3</td>
+                            <td style="width: 5%;">12:20-13:50</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">4</td>
+                            <td style="width: 5%;">14:10-15:40</td>
+                            <td style="width: 15%;">Физ-ра</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">5</td>
+                            <td style="width: 5%;">16:00-17:30</td>
+                            <td style="width: 15%;">Менеджмент в ПД</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">6</td>
+                            <td style="width: 5%;">17:50-19:20</td>
+                            <td style="width: 15%;">Менеджмент в ПД <b>/</b></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                        </tr>
+                    </table>
+                    <table id="t32">
+                        <tr id="table-header">
+                            <td style="width: 5%;">№ пары</td>
+                            <td style="width: 5%;">Время</td>
+                            <td style="width: 15%;">Понеделrrrrrик</td>
+                            <td style="width: 15%;">Вторник</td>
+                            <td style="width: 15%;">Среда</td>
+                            <td style="width: 15%;">Четверг</td>
+                            <td style="width: 15%;">Пятница</td>
+                            <td style="width: 15%;">Суббота</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">1</td>
+                            <td style="width: 5%;">8:00-9:30</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 03.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">2</td>
+                            <td style="width: 5%;">9:50-11:20</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 03.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">3</td>
+                            <td style="width: 5%;">12:20-13:50</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">4</td>
+                            <td style="width: 5%;">14:10-15:40</td>
+                            <td style="width: 15%;">Физ-ра</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">5</td>
+                            <td style="width: 5%;">16:00-17:30</td>
+                            <td style="width: 15%;">Менеджмент в ПД</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">6</td>
+                            <td style="width: 5%;">17:50-19:20</td>
+                            <td style="width: 15%;">Менеджмент в ПД <b>/</b></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                        </tr>
+                    </table>
+                    <table id="t41">
+                        <tr id="table-header">
+                            <td style="width: 5%;">№ пары</td>
+                            <td style="width: 5%;">Время</td>
+                            <td style="width: 15%;">Понедельник</td>
+                            <td style="width: 15%;">Вторник</td>
+                            <td style="width: 15%;">Среда</td>
+                            <td style="width: 15%;">Четверг</td>
+                            <td style="width: 15%;">Пятница</td>
+                            <td style="width: 15%;">Субrrrrrrr</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">1</td>
+                            <td style="width: 5%;">8:00-9:30</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 03.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">2</td>
+                            <td style="width: 5%;">9:50-11:20</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 03.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">3</td>
+                            <td style="width: 5%;">12:20-13:50</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">4</td>
+                            <td style="width: 5%;">14:10-15:40</td>
+                            <td style="width: 15%;">Физ-ра</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">5</td>
+                            <td style="width: 5%;">16:00-17:30</td>
+                            <td style="width: 15%;">Менеджмент в ПД</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">6</td>
+                            <td style="width: 5%;">17:50-19:20</td>
+                            <td style="width: 15%;">Менеджмент в ПД <b>/</b></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                        </tr>
+                    </table>
+                    <table id="t42">
+                        <tr id="table-header">
+                            <td style="width: 5%;">№ пары</td>
+                            <td style="width: 5%;">Время</td>
+                            <td style="width: 15%;">Понедельник</td>
+                            <td style="width: 15%;">Вторник</td>
+                            <td style="width: 15%;">Средweeeeeeа</td>
+                            <td style="width: 15%;">Четверг</td>
+                            <td style="width: 15%;">Пятница</td>
+                            <td style="width: 15%;">Суббота</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">1</td>
+                            <td style="width: 5%;">8:00-9:30</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 03.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">2</td>
+                            <td style="width: 5%;">9:50-11:20</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 03.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">3</td>
+                            <td style="width: 5%;">12:20-13:50</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 02.01</td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">4</td>
+                            <td style="width: 5%;">14:10-15:40</td>
+                            <td style="width: 15%;">Физ-ра</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;">МДК 02.02</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">5</td>
+                            <td style="width: 5%;">16:00-17:30</td>
+                            <td style="width: 15%;">Менеджмент в ПД</td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 5%;">6</td>
+                            <td style="width: 5%;">17:50-19:20</td>
+                            <td style="width: 15%;">Менеджмент в ПД <b>/</b></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                            <td style="width: 15%;"></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="chapter">
+        <div class="footer-container">
+            <div class="logo-nav">
+                <div class="logo-f">
+                    <div class="logo-img-f">
+                        <img src="/assets/images/logo/BSPULogo.svg" alt="logotype">
+                        <div class="social">
+                            <img src="/assets/images/icons/VK.png" alt="VK" onclick="AlertJoke()">
+                            <img src="/assets/images/icons/TG.png" alt="TG" onclick="AlertJoke()">
+                            <img src="/assets/images/icons/OK.png" alt="OK" onclick="AlertJoke()">
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-f">
+                    <ul>
+                        <li><a href="#news">Новости</a></li>
+                        <li><a href="#teachers">Преподаватели</a></li>
+                        <li><a href="#applicants">Абитуриентам</a></li>
+                        <li><a href="shedule.html">Расписание</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright-text">
+                <p>&copy BSPU_Portal 2024</p>
+            </div>
+        </div>
+    </footer>    
+    
+    <script src="/js/code.js"></script>
+</body>
+</html>
