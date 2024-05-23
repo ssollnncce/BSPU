@@ -6,7 +6,7 @@ function AlertJoke(){
 }
 
 function GoToHome(){
-    window.location.href = '/pages/index.html'
+    window.location.href = 'index.html'
 }
 
 var i11 = document.getElementById("i11");
